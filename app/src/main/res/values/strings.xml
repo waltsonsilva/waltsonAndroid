@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjetoWidgets</string>
+    <string-array name="array_nomes">
+        <item>Maria</item>
+        <item>João</item>
+        <item>Paulo</item>
+        <item>Fernanda</item>
+        <item>Ana</item>
+        <item>Iandra</item>
+
+
+    </string-array>
+</resources>
