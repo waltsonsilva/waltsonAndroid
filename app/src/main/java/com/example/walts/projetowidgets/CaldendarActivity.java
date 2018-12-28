@@ -19,6 +19,7 @@ public class CaldendarActivity extends AppCompatActivity {
 
         cv.getDate();
 
+
         cv.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange( CalendarView view, int year, int month, int dayOfMonth) {
@@ -29,6 +30,5 @@ public class CaldendarActivity extends AppCompatActivity {
 
             }
         });
-
     }
 }
