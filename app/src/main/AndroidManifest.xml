@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.walts.projetowidgets">
 
-
-
     <uses-feature android:name="android.hardware.Camera" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -14,21 +13,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".nativo.CallActivity">
+        <activity android:name=".menu.NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity android:name=".nativo.SharedActivity"></activity> -->
-        <!-- <activity android:name=".nativo.CamActivity"></activity> -->
-        <!-- <activity android:name=".nativo.CallActivity"></activity> -->
-        <!-- <activity android:name=".FrameLayout"></activity> -->
-        <!-- <activity android:name=".LayoutsActivity"></activity> -->
-        <!-- <activity android:name=".LinearActivity"></activity> -->
-        <!-- <activity android:name=".TableActiviy"></activity> -->
-        <activity android:name=".layouts.GridLayout"></activity>
+         <activity android:name=".nativo.SharedActivity"></activity>
+         <activity android:name=".nativo.CamActivity"></activity>
+         <activity android:name=".nativo.CallActivity"></activity>
+         <activity android:name=".layouts.FrameLayout"></activity>
+         <activity android:name=".layouts.LayoutsActivity"></activity>
+         <activity android:name=".layouts.TableActiviy"></activity>
+        <activity android:name=".layouts.GridLayout" />
 
     </application>
 

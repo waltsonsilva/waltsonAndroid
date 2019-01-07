@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nativo.CallFragment">
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:maxLength="13"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:text=" Ligar "
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp" />
+
+</RelativeLayout>
